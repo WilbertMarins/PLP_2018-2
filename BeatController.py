@@ -8,15 +8,15 @@ def BeatController():
 	
 #inicia e permite a parada, mas bloqueia a opção primária
 def start():
-	model.on();
-	view.disableStartMenuItem();
-	view.enableStopMenuItem();
+	on()
+	disableStartMenuItem()
+	enableStopMenuItem()
 
 #para e permite o inicio, mas bloqueia a opção primária
 def stop():
-	model.off();
-	view.disableStopMenuItem();
-	view.enableStartMenuItem();
+	off()
+	disableStopMenuItem()
+	enableStartMenuItem()
     
 #incrementa 1 ao bpm
 def increaseBPM():
