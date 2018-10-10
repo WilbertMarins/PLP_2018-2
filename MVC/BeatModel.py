@@ -1,3 +1,6 @@
+import BeatController
+import DJView
+import BeatModel
 BPM = 90      #valor padrão
 
 #inicia a aplicação
