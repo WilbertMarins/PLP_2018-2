@@ -7,23 +7,23 @@ def initialize():
 		
 #liga
 def on():
-		print("Iniciando a sequência") #imprime a mensagem		
-		BPM=90
-    #inicia sequencia
+	print("Iniciando a sequência") #imprime a mensagem		
+	BPM=90
+	#inicia sequencia
 	
 #desliga
 def off():
-		BPM = 0
-		#para sequencia
+	BPM = 0
+	#para sequencia
 	
 #altera o Bpm recebendo novo valor
 def recebeBPM(bpm): 
-		BPM = bpm
+	BPM = bpm
     
     
 #atualiza o modelo
 def beatEvent():
-    #atualiza em tela
+	#atualiza em tela
 		
 	
 
